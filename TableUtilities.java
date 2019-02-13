@@ -38,9 +38,9 @@ public class TableUtilities {
 
     public static String getMultiplicationTable(int tableSize) {
         String result = "";
-        for(int i = 1; i <= 20; i++){
+        for(int i = 1; i <= tableSize; i++){
            
-            for(int j = 1; j <= 20; j++){
+            for(int j = 1; j <= tableSize; j++){
 
                 int loop = (i*j);
                 result += String.format("%3d |",loop);
